@@ -1,0 +1,16 @@
+
+.beside{
+list-style: none;
+    float: left;
+    border: 2px solid black;
+    background-color: white;
+    height:  300px;
+    opacity: 0.8;
+    width: 33%;
+}
+.liC{
+    list-style: none;
+}
+.changeBackGround{
+    background-color: lightgreen;
+}

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<input type="text" placeholder="search" name="search" #searchValue (keyup)="save(searchValue.value)">
+
+
+<html>
+    <meta charset="UTF-8">
+  
+ 
+    <li class="liC" *ngFor="let tweet of twat"  >
+   
+        <div class="beside" *ngIf="match(tweet.text)"> 
+        {{tweet.text}} 
+        <br><br>
+        <!-- <h1 class="fa fa-thumbs-up" ></h1> -->
+        <button class="fa fa-thumbs-up" (click)="likes()" >{{tweet.likes}}</button>
+
+        <br><br>
+        {{tweet.date}}
+    </div>
+        <li>
+            
+    
+       
+   
+   
+
+</html>

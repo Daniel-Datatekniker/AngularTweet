@@ -2,15 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { Tweet } from '../tweet';
 import { TweetsService } from '../tweets.service';
 import { NumberSymbol } from '@angular/common';
-import { debug } from 'console';
+
 
 @Component({
   selector: 'app-tweets',
   templateUrl: './tweets.component.html',
   styleUrls: ['./tweets.component.css']
 })
-export class TweetsComponent implements OnInit {
 
+export class TweetsComponent implements OnInit {
 like = 0;
 searchText : string;
 
